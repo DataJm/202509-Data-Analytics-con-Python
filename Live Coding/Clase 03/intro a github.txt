@@ -1,0 +1,11 @@
+# Revisar las diferencias entre el repositorio y mi version local
+git status
+
+# Añadir todos los cambios al siguiente commit
+git add .
+
+# Agregar el mensaje que acompañará a todos los cambios
+git commit -m 'mensaje'
+
+# Publicar los cambios
+git push

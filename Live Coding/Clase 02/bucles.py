@@ -29,6 +29,7 @@ with open("./data/01netflix.csv", encoding="UTF-8") as archivo:
 
     reader = csv.reader(archivo, delimiter=",")
 
+    # Esto es en caso de que mi archivo tenga encabezados
     encabezado = next(reader)
     print(encabezado)
 
