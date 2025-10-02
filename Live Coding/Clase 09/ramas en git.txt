@@ -1,0 +1,14 @@
+# Crear una rama
+git checkout -b desarrollo
+
+# Pasarse a una rama existente
+git checkout desarrollo
+
+# Actualizar el repositorio local con el repositorio remoto
+git pull
+
+# Es necesario eliminar la rama desde la maquina local? No, simplemente con regresar a la rama principal
+git checkout main
+
+
+
